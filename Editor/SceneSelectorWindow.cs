@@ -13,7 +13,7 @@ namespace Boxcat.Tools.SceneSelector
 {
     public class SceneSelectorWindow : EditorWindow
     {
-        [MenuItem("Tools/Asset Management/Scenes In Project %9", false, 68)]
+        [MenuItem("Tools/Asset Management/Scene Selector %9", false, 68)]
         static void Init()
         {
             var window = GetWindow(typeof(SceneSelectorWindow), false, "Scenes");
